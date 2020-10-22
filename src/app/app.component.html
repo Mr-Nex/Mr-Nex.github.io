@@ -1,0 +1,32 @@
+<div class="container">
+
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a routerLink="/"><i class="fa fa-home fa-2x" aria-hidden="true" onclick="closeNav()"></i></a>
+      <a routerLink="/about" routerLinkActive="active" onclick="closeNav()">About Me</a>
+      <a routerLink="/resume" routerLinkActive="active" onclick="closeNav()">Resume</a>
+      <a routerLink="/projects" routerLinkActive="active" onclick="closeNav()">My Projects</a>
+      <a routerLink="/contact" routerLinkActive="active" onclick="closeNav()">Contact Me</a>
+    </div>
+  
+  </div>
+  
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <div class="toggle-button">
+    <span onclick="openNav()"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+  </div>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="credits">
+  Designed by <a routerLink="/about">Nitin Kumar</a>
+</div>
+

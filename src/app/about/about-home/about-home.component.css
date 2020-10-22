@@ -1,0 +1,99 @@
+p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Fugaz One', cursive;
+    font-size: large;
+}
+
+#dp{
+    height:250px;
+    padding-left: 70px;
+    border-radius: 50%;
+    padding-top: 18px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#coding{
+    text-align: center;
+    padding-top: 20px;
+}
+#coding > a{
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.253);
+    color: #fff;
+    border-radius: 50%;
+    padding: 22px;
+}
+
+.myLinks{
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.myLinks > a{    
+    text-decoration: none;
+    padding: 10px;
+}
+
+.fa-linkedin-square{
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+  
+    color: rgb(151, 151, 151);
+}
+.fa-linkedin-square:hover{
+    color: #0073b1;
+}
+
+.fa-github{    
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+  
+    color: rgb(151, 151, 151);
+}
+.fa-github:hover{
+    color: #fac237;
+}
+
+.fa-google-plus{    
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+  
+    color: rgb(151, 151, 151);
+}
+.fa-google-plus:hover{
+    color: #dd5144;
+}
+
+.fa-android{    
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+  
+    color: rgb(151, 151, 151);
+}
+.fa-android:hover{
+    color: #32de84;
+}
